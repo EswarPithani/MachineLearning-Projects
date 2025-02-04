@@ -1,0 +1,32 @@
+Customer Loyalty and Sales Analysis
+This project performs an in-depth analysis of customer loyalty and sales transactions. The aim is to uncover valuable insights about customer behavior based on transactional data and segment them into distinct categories for better business decision-making. The project uses Python and popular data science libraries like Pandas, Seaborn, and Matplotlib to handle and visualize the data.
+
+Project Overview
+The analysis is based on a dataset containing transactional information, such as:
+
+Product details (e.g., product number, name, and sales)
+Customer loyalty data (e.g., loyalty card number, transaction counts)
+Customer segment information (e.g., customer lifestage and premium status)
+The goal of this project is to identify the most profitable products, as well as the most loyal customer segments, and visualize these insights using bar graphs and tables.
+
+Key Features
+1. Top Products Analysis
+Aggregates sales by product and identifies the most profitable products.
+Displays the top 5 products based on total sales in a table and visualizes it in a bar graph.
+2. Customer Loyalty Analysis
+Counts transactions for each loyalty card and merges the data with customer segment details (lifestage, premium customer status).
+Aggregates transaction counts by customer segments and ranks the segments based on loyalty.
+Displays the top 5 most loyal customer segments in a table and visualizes it in a bar graph, segmented by customer status.
+Technologies Used
+Python: Core programming language for data analysis.
+Pandas: Used for data manipulation and analysis.
+Seaborn: Used for creating aesthetically pleasing data visualizations.
+Matplotlib: Used for plotting the bar graphs.
+Tabulate: Used for presenting the data in a tabular format.
+Data Processing Steps
+Grouping and Aggregating: The data is grouped by product number, product name, and customer loyalty card number. Transaction counts and total sales are calculated for each group.
+Merging Customer Data: Customer loyalty data is merged with additional behavioral data to enrich the analysis.
+Segmentation and Ranking: Customers are grouped into segments based on life stage and premium status, and the loyalty of each segment is ranked by total transactions.
+Visualizations
+Top Products: A bar graph showing the top 5 most profitable products.
+Customer Segments: A bar graph visualizing the loyalty of the top 5 customer segments, with differentiation between premium and non-premium customers.
